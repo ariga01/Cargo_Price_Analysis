@@ -9,7 +9,7 @@ Cargo price started to skyrocketed after the start of pandemic. The rising price
 - Investigate the possible causes of the rising cargo price
 - Project the possible date the normal cargo price
 
-## Project Steps
+## Workflow
 
 - Look for various economic dataset
 - Make simple correlation and regression model in excel

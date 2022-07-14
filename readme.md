@@ -56,3 +56,7 @@ I made some value assumption to the independent variables for the following 24 m
 ## Results
 
 After making the underlying assumption, I used regression method to project the future value of the respective variables. By using the aforementioned methods, I predicted that at the earliest, the price may back to normal at mid 2024, 2 years from now.
+
+## Credits
+
+[Machine Learning Script Used](https://machinelearningmastery.com/)

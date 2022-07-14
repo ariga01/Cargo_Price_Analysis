@@ -7,7 +7,7 @@ Cargo price started to skyrocketed after the start of pandemic. The rising price
 ## Objective
 
 - Investigate the possible causes of the rising cargo price
-- Project the possible date the normal cargo price
+- Project the possible date for normal cargo price
 
 ## Workflow
 
@@ -17,9 +17,7 @@ Cargo price started to skyrocketed after the start of pandemic. The rising price
 - Do thorough analysis in python
 - Make projection
 
-## Results and Discussion
-
-### **Discussion**
+## Discussion
 
 After the initial investigation, I picked two variables as the main cargo price measurement:
 
@@ -27,7 +25,7 @@ After the initial investigation, I picked two variables as the main cargo price 
 - CASS
 Using these two measurements, I also picked the following variables for each respective dependent variables:
 
-#### PPI
+## PPI
 
 - 5-Year Breakeven Inflation Rate
 - Household Spending Growth Expectation
@@ -36,7 +34,7 @@ Using these two measurements, I also picked the following variables for each res
 - Truck Transportation of Freight
 - Retailers Sales
 
-#### CASS
+## CASS
 
 - Los Angeles Port Loaded Import
 - Autos: Inventories to Sales
@@ -49,10 +47,10 @@ Each variables being used has certain connection with US consumer demand, inflat
 
 Another thing to address is people's inflation expectation. Measurement such as 5-year breakeven and household spending growth expectation gauge market expectation of the upcoming futures. Inflation can become some sort of self-fulfilling propehcy at a certain point. At higher inflation level, people are more likely to stocks up on goods, adding even more inflationary pressure they may have face already. Another inflation measures is the future gold price expectation. The future gold price expectation may gauge market feeling of future inflation uncertainty, thus making many people buying gold and having future rising price expectation of gold.
 
-For US OIL price, this is an input price for many things. A higher oil price means higher end product price, assuming that the producer has pricing power over their product. Additionally, logistics activity requires oil to operate. Truck transportation of freight represent the price for trucking activity to the next logistic point or in reverse. This variables is a proxy for gauging the possible condition in the field, a higher price may indicate higher pricing power on the side of employee, despite the lower productivity of employee port in US coast, compared to their counterpart in China. This is important when gauging the export out of US.
+For US OIL price, this is an input price for many sectors. A higher oil price means higher end product price, assuming that the producer has pricing power over their product. Additionally, logistics activity requires oil to operate. Truck transportation of freight represent the price for trucking activity to the next logistic point or in reverse. This variables is a proxy for gauging the possible condition in the field, a higher price may indicate higher pricing power on the side of employee, despite the lower productivity of employee port in US coast, compared to their counterpart in China. This is important when gauging the export out of US.
 
 I made some value assumption to the independent variables for the following 24 months. I primarily use numbers from the confidence interval, but for some extreme cases like auto inventory, i made some more liberal value assumption because the movement of auto inventory is extremely out of normal.
 
-### **Results**
+## Results
 
 After making the underlying assumption, I used regression method to project the future value of the respective variables. By using the aforementioned methods, I predicted that at the earliest, the price may back to normal at mid 2024, 2 years from now.

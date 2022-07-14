@@ -2,7 +2,7 @@
 
 ## Supporting Links
 
-[Tableau Presentation](https://tabsoft.co/3RAjtq8).
+[Tableau Presentation](https://tabsoft.co/3RAjtq8)
 
 ## About This Project
 
